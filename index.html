@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMATORY | Официальный сайт</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Шапка с фиксированным меню -->
+    <header class="metal-header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="images/band-logo.png" alt="AMATORY" class="logo-img">
+                    <h1 class="band-name">AMATORY</h1>
+                </div>
+                <nav class="main-menu">
+                    <ul>
+                        <li><a href="index.html" class="nav-link active"><i class="fas fa-home"></i> Главная</a></li>
+                        <li><a href="about.html" class="nav-link"><i class="fas fa-users"></i> О группе</a></li>
+                        <li><a href="discography.html" class="nav-link"><i class="fas fa-compact-disc"></i> Дискография</a></li>
+                        <li><a href="concerts.html" class="nav-link"><i class="fas fa-guitar"></i> Концерты</a></li>
+                        <li><a href="store.html" class="nav-link"><i class="fas fa-shopping-cart"></i> Магазин</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Основной контент -->
+    <main class="container  main-content">
+        <!-- Герой-секция -->
+        <section class="hero-section">
+            <div class="hero-content">
+                <h2 class="hero-title">НОВЫЙ АЛЬБОМ<br><span class="highlight">"ИНКАРНАЦИЯ"</span></h2>
+                <p class="hero-subtitle">Вышел 15 ноября 2023 года</p>
+                <button class="metal-btn pulse" id="listenBtn">
+                    <i class="fas fa-play"></i> Слушать сейчас
+                </button>
+                <div class="countdown" id="tourCountdown">
+                    <p>До следующего тура осталось:</p>
+                    <div class="countdown-timer">
+                        <span id="days">00</span>д <span id="hours">00</span>ч <span id="minutes">00</span>м <span id="seconds">00</span>с
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/band-main.jpg" alt="AMATORY на сцене" class="hero-img">
+                <div class="overlay"></div>
+            </div>
+        </section>
+
+        <!-- Новости -->
+        <section class="content-section">
+            <h2><i class="fas fa-fire"></i> Последние новости</h2>
+            <div class="news-grid">
+                <article class="news-card">
+                    <div class="news-date">25.12.2023</div>
+                    <h3>Завершение тура "Инкарнация"</h3>
+                    <p>Московский концерт завершил масштабный тур в поддержку нового альбома.</p>
+                    <button class="metal-btn-small">Читать далее</button>
+                </article>
+                <article class="news-card">
+                    <div class="news-date">10.12.2023</div>
+                    <h3>Новый мерч в магазине</h3>
+                    <p>Добавлены новые футболки, худи и аксессуары с символикой альбома.</p>
+                    <button class="metal-btn-small">В магазин</button>
+                </article>
+                <article class="news-card">
+                    <div class="news-date">01.12.2023</div>
+                    <h3>Клип "Чёрный рассвет"</h3>
+                    <p>Премьера нового клипа набрала 1 млн просмотров за первые сутки.</p>
+                    <button class="metal-btn-small"><i class="fab fa-youtube"></i> Смотреть</button>
+                </article>
+            </div>
+        </section>
+
+        <!-- Предстоящие концерты -->
+        <section class="content-section dark">
+            <h2><i class="fas fa-calendar-alt"></i> Ближайшие концерты</h2>
+            <div class="concerts-list">
+                <div class="concert-item">
+                    <div class="concert-date">
+                        <span class="day">15</span>
+                        <span class="month">ЯНВ</span>
+                        <span class="year">2024</span>
+                    </div>
+                    <div class="concert-info">
+                        <h3>Санкт-Петербург, Клуб "А2"</h3>
+                        <p>Начало: 19:00 | Цена: от 1500₽</p>
+                    </div>
+                    <button class="metal-btn">Билеты</button>
+                </div>
+                <div class="concert-item">
+                    <div class="concert-date">
+                        <span class="day">22</span>
+                        <span class="month">ЯНВ</span>
+                        <span class="year">2024</span>
+                    </div>
+                    <div class="concert-info">
+                        <h3>Москва, Stadium Live</h3>
+                        <p>Начало: 20:00 | Цена: от 2000₽</p>
+                    </div>
+                    <button class="metal-btn">Билеты</button>
+                </div>
+                <div class="concert-item">
+                    <div class="concert-date">
+                        <span class="day">05</span>
+                        <span class="month">ФЕВ</span>
+                        <span class="year">2024</span>
+                    </div>
+                    <div class="concert-info">
+                        <h3>Екатеринбург, Tele-Club</h3>
+                        <p>Начало: 18:30 | Цена: от 1200₽</p>
+                    </div>
+                    <button class="metal-btn">Билеты</button>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="concerts.html" class="metal-link">Все концерты <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </section>
+
+        <!-- Топ треков -->
+        <section class="content-section">
+            <h2><i class="fas fa-chart-line"></i> Популярные треки</h2>
+            <div class="tracks-list">
+                <div class="track-item">
+                    <span class="track-number">1</span>
+                    <div class="track-info">
+                        <h4>Осколки</h4>
+                        <p>Альбом: Инкарнация | 2023</p>
+                    </div>
+                    <button class="play-btn"><i class="fas fa-play"></i></button>
+                </div>
+                <div class="track-item">
+                    <span class="track-number">2</span>
+                    <div class="track-info">
+                        <h4>Чёрный рассвет</h4>
+                        <p>Альбом: Инкарнация | 2023</p>
+                    </div>
+                    <button class="play-btn"><i class="fas fa-play"></i></button>
+                </div>
+                <div class="track-item">
+                    <span class="track-number">3</span>
+                    <div class="track-info">
+                        <h4>Вечно прячется судьба</h4>
+                        <p>Альбом: Вечно прячется судьба | 2004</p>
+                    </div>
+                    <button class="play-btn"><i class="fas fa-play"></i></button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Футер -->
+    <footer class="metal-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>AMATORY</h3>
+                    <p>Российская метал-группа, основанная в 2001 году.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-spotify"></i></a>
+                        <a href="#"><i class="fab fa-apple"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Быстрые ссылки</h3>
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="about.html">О группе</a></li>
+                        <li><a href="discography.html">Дискография</a></li>
+                        <li><a href="concerts.html">Концерты</a></li>
+                        <li><a href="store.html">Магазин</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Контакты</h3>
+                    <p><i class="fas fa-envelope"></i> booking@amatory.ru</p>
+                    <p><i class="fas fa-phone"></i> +7 (999) 123-45-67</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Москва, Россия</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Подписка</h3>
+                    <p>Получайте уведомления о концертах и релизах:</p>
+                    <div class="subscribe">
+                        <input type="email" placeholder="Ваш email">
+                        <button class="metal-btn-small">OK</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2001-2025 AMATORY. Все права защищены.</p>
+                <p class="guitar-animation"><i class="fas fa-guitar"></i></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Кнопка "Наверх" -->
+    <button id="backToTop" class="metal-back-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
