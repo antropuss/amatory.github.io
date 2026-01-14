@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMATORY | Концерты</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Шапка с фиксированным меню -->
+    <header class="metal-header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="images/band-logo.png" alt="AMATORY" class="logo-img">
+                    <h1 class="band-name">AMATORY</h1>
+                </div>
+
+                <nav class="main-menu">
+                    <ul>
+                        <li><a href="index.html" class="nav-link"><i class="fas fa-home"></i> Главная</a></li>
+                        <li><a href="about.html" class="nav-link"><i class="fas fa-users"></i> О группе</a></li>
+                        <li><a href="discography.html" class="nav-link"><i class="fas fa-compact-disc"></i> Дискография</a></li>
+                        <li><a href="concerts.html" class="nav-link active"><i class="fas fa-guitar"></i> Концерты</a></li>
+                        <li><a href="store.html" class="nav-link"><i class="fas fa-shopping-cart"></i> Магазин</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Основной контент -->
+    <main class="container  main-content">
+        <!-- Заголовок страницы -->
+        <div class="page-header">
+            <h1 class="page-title"><i class="fas fa-guitar"></i> Концерты и туры</h1>
+            <p class="page-subtitle">Ближайшие выступления и информация о билетах</p>
+        </div>
+
+        <!-- Тур Инкарнация 2024 -->
+        <section class="content-section">
+            <div class="tour-header">
+                <h2><i class="fas fa-torii-gate"></i> Тур "Инкарнация" 2024</h2>
+                <div class="tour-status">
+                    <span class="status-badge active">В процессе</span>
+                    <span class="tour-dates">15 января - 20 марта 2024</span>
+                </div>
+            </div>
+            
+            <div class="tour-info">
+                <div class="tour-description">
+                    <p>Масштабный тур в поддержку нового альбома "Инкарнация" пройдет по 20 городам России. В программе - как новые композиции, так и лучшие хиты за всю историю группы.</p>
+                    
+                    <div class="tour-highlights">
+                        <h3><i class="fas fa-star"></i> Особенности тура:</h3>
+                        <ul>
+                            <li>Новое световое шоу и пиротехника</li>
+                            <li>Специальные гости на отдельных концертах</li>
+                            <li>Эксклюзивный мерч только для участников тура</li>
+                            <li>Встреча с группой после шоу (VIP билеты)</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="tour-stats">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-city"></i>
+                        </div>
+                        <div class="stat-content">
+                            <div class="stat-number">20 городов</div>
+                            <div class="stat-label"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-ticket-alt"></i>
+                        </div>
+                        <div class="stat-content">
+                            <div class="stat-number">85% продано билетов</div>
+                            <div class="stat-label"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="stat-content">
+                            <div class="stat-number">45,000+ зрителей</div>
+                            <div class="stat-label"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Расписание концертов -->
+        <section class="content-section dark">
+            <h2><i class="fas fa-calendar-alt"></i> Расписание концертов</h2>
+            
+            
+            <div class="concerts-timeline">
+                <!-- Январь -->
+                <div class="timeline-month">
+                    <h3 class="month-title">Январь 2024</h3>
+                    
+                    <div class="concert-timeline-item upcoming">
+                        <div class="timeline-date">
+                            <span class="date-day">15</span>
+                            <span class="date-month">ЯНВ</span>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="concert-main-info">
+                                <h4>Санкт-Петербург, Клуб "А2"</h4>
+                                <div class="concert-details">
+                                    <span><i class="fas fa-clock"></i> Начало: 19:00</span>
+                                    <span><i class="fas fa-map-marker-alt"></i> Елизаровская 38</span>
+                                    <span><i class="fas fa-users"></i> Вместимость: 2000 чел.</span>
+                                </div>
+                            </div>
+                            <div class="concert-actions">
+                                <div class="ticket-info">
+                                    <div class="price">от 1500₽</div>
+                                    <div class="availability available">Билеты доступны</div>
+                                </div>
+                                <button class="metal-btn buy-ticket-btn" data-concert="1">
+                                    <i class="fas fa-ticket-alt"></i> Купить билет
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="concert-timeline-item upcoming">
+                        <div class="timeline-date">
+                            <span class="date-day">20</span>
+                            <span class="date-month">ЯНВ</span>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="concert-main-info">
+                                <h4>Москва, Stadium Live</h4>
+                                <div class="concert-details">
+                                    <span><i class="fas fa-clock"></i> Начало: 20:00</span>
+                                    <span><i class="fas fa-map-marker-alt"></i> Ленинградский пр-т, 80</span>
+                                    <span><i class="fas fa-users"></i> Вместимость: 5000 чел.</span>
+                                </div>
+                                <div class="special-badge">
+                                    <i class="fas fa-crown"></i> VIP зона доступна
+                                </div>
+                            </div>
+                            <div class="concert-actions">
+                                <div class="ticket-info">
+                                    <div class="price">от 2000₽</div>
+                                    <div class="availability limited">Осталось мало</div>
+                                </div>
+                                <button class="metal-btn buy-ticket-btn" data-concert="2">
+                                    <i class="fas fa-ticket-alt"></i> Купить билет
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Февраль -->
+                <div class="timeline-month">
+                    <h3 class="month-title">Февраль 2024</h3>
+                    
+                    <div class="concert-timeline-item">
+                        <div class="timeline-date">
+                            <span class="date-day">05</span>
+                            <span class="date-month">ФЕВ</span>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="concert-main-info">
+                                <h4>Екатеринбург, Tele-Club</h4>
+                                <div class="concert-details">
+                                    <span><i class="fas fa-clock"></i> Начало: 18:30</span>
+                                    <span><i class="fas fa-map-marker-alt"></i> ул. Куйбышева, 44</span>
+                                    <span><i class="fas fa-users"></i> Вместимость: 1500 чел.</span>
+                                </div>
+                            </div>
+                            <div class="concert-actions">
+                                <div class="ticket-info">
+                                    <div class="price">от 1200₽</div>
+                                    <div class="availability available">Билеты доступны</div>
+                                </div>
+                                <button class="metal-btn buy-ticket-btn" data-concert="3">
+                                    <i class="fas fa-ticket-alt"></i> Купить билет
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="concert-timeline-item soldout">
+                        <div class="timeline-date">
+                            <span class="date-day">10</span>
+                            <span class="date-month">ФЕВ</span>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="concert-main-info">
+                                <h4>Новосибирск, Green Plaza</h4>
+                                <div class="concert-details">
+                                    <span><i class="fas fa-clock"></i> Начало: 19:00</span>
+                                    <span><i class="fas fa-map-marker-alt"></i> ул. Каменская, 56</span>
+                                    <span><i class="fas fa-users"></i> Вместимость: 3000 чел.</span>
+                                </div>
+                            </div>
+                            <div class="concert-actions">
+                                <div class="ticket-info">
+                                    <div class="price">от 1300₽</div>
+                                    <div class="availability soldout">РАСПРОДАНО</div>
+                                </div>
+                                <button class="metal-btn disabled" disabled>
+                                    <i class="fas fa-times"></i> Нет билетов
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="concert-timeline-item upcoming vip">
+                        <div class="timeline-date">
+                            <span class="date-day">18</span>
+                            <span class="date-month">ФЕВ</span>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="concert-main-info">
+                                <h4>Казань, Pyramida</h4>
+                                <div class="concert-details">
+                                    <span><i class="fas fa-clock"></i> Начало: 20:00</span>
+                                    <span><i class="fas fa-map-marker-alt"></i> ул. Московская, 13</span>
+                                    <span><i class="fas fa-users"></i> Вместимость: 2500 чел.</span>
+                                </div>
+                                <div class="special-badge">
+                                    <i class="fas fa-star"></i> Специальный гость
+                                </div>
+                            </div>
+                            <div class="concert-actions">
+                                <div class="ticket-info">
+                                    <div class="price">от 1400₽</div>
+                                    <div class="availability available">Билеты доступны</div>
+                                </div>
+                                <button class="metal-btn buy-ticket-btn" data-concert="5">
+                                    <i class="fas fa-ticket-alt"></i> Купить билет
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Март -->
+                <div class="timeline-month">
+                    <h3 class="month-title">Март 2024</h3>
+                    
+                    <div class="concert-timeline-item">
+                        <div class="timeline-date">
+                            <span class="date-day">02</span>
+                            <span class="date-month">МАР</span>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="concert-main-info">
+                                <h4>Ростов-на-Дону, ТК "Арена"</h4>
+                                <div class="concert-details">
+                                    <span><i class="fas fa-clock"></i> Начало: 19:30</span>
+                                    <span><i class="fas fa-map-marker-alt"></i> пр. Стачки, 232</span>
+                                    <span><i class="fas fa-users"></i> Вместимость: 4000 чел.</span>
+                                </div>
+                            </div>
+                            <div class="concert-actions">
+                                <div class="ticket-info">
+                                    <div class="price">от 1600₽</div>
+                                    <div class="availability available">Билеты доступны</div>
+                                </div>
+                                <button class="metal-btn buy-ticket-btn" data-concert="6">
+                                    <i class="fas fa-ticket-alt"></i> Купить билет
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="concert-timeline-item">
+                        <div class="timeline-date">
+                            <span class="date-day">15</span>
+                            <span class="date-month">МАР</span>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="concert-main-info">
+                                <h4>Краснодар, Arena Hall</h4>
+                                <div class="concert-details">
+                                    <span><i class="fas fa-clock"></i> Начало: 20:00</span>
+                                    <span><i class="fas fa-map-marker-alt"></i> ул. Зиповская, 5</span>
+                                    <span><i class="fas fa-users"></i> Вместимость: 3500 чел.</span>
+                                </div>
+                            </div>
+                            <div class="concert-actions">
+                                <div class="ticket-info">
+                                    <div class="price">от 1400₽</div>
+                                    <div class="availability available">Билеты доступны</div>
+                                </div>
+                                <button class="metal-btn buy-ticket-btn" data-concert="7">
+                                    <i class="fas fa-ticket-alt"></i> Купить билет
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- VIP пакеты -->
+        <section class="content-section dark">
+            <h2><i class="fas fa-crown"></i> VIP пакеты</h2>
+            
+            <div class="vip-packages">
+                <div class="vip-card">
+                    <div class="vip-header">
+                        <h3>Silver VIP</h3>
+                        <div class="vip-price">5,000₽</div>
+                    </div>
+                    <ul class="vip-benefits">
+                        <li><i class="fas fa-check"></i> Лучшие места в зале</li>
+                        <li><i class="fas fa-check"></i> Эксклюзивный мерч (футболка)</li>
+                        <li><i class="fas fa-check"></i> Автограф-сессия</li>
+                        <li><i class="fas fa-check"></i> Ранний вход в зал</li>
+                        <li><i class="fas fa-times"></i> Фото с группой</li>
+                    </ul>
+                    <button class="metal-btn">Выбрать пакет</button>
+                </div>
+                
+                <div class="vip-card featured">
+                    <div class="vip-badge">ПОПУЛЯРНЫЙ</div>
+                    <div class="vip-header">
+                        <h3>Gold VIP</h3>
+                        <div class="vip-price">8,000₽</div>
+                    </div>
+                    <ul class="vip-benefits">
+                        <li><i class="fas fa-check"></i> ВСЕ бонусы Silver VIP</li>
+                        <li><i class="fas fa-check"></i> Фото с группой (3 фото)</li>
+                        <li><i class="fas fa-check"></i> Автограф на 2 предметах</li>
+                        <li><i class="fas fa-check"></i> Лимитированный мерч (толстовка)</li>
+                        <li><i class="fas fa-check"></i> Доступ в VIP-лаунж</li>
+                    </ul>
+                    <button class="metal-btn">Выбрать пакет</button>
+                </div>
+                
+                <div class="vip-card">
+                    <div class="vip-header">
+                        <h3>Platinum VIP</h3>
+                        <div class="vip-price">12,000₽</div>
+                    </div>
+                    <ul class="vip-benefits">
+                        <li><i class="fas fa-check"></i> ВСЕ бонусы Gold VIP</li>
+                        <li><i class="fas fa-check"></i> Посещение саундчека</li>
+                        <li><i class="fas fa-check"></i> Ужин с группой</li>
+                        <li><i class="fas fa-check"></i> Персональный автограф</li>
+                        <li><i class="fas fa-check"></i> Подарок от группы</li>
+                    </ul>
+                    <button class="metal-btn">Выбрать пакет</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Как купить билеты -->
+        <section class="content-section">
+            <h2><i class="fas fa-question-circle"></i> Как купить билеты</h2>
+            
+            <div class="purchase-steps">
+                <div class="step">
+                    <div class="step-number"></div>
+                    <div class="step-content">
+                        <h3>1. Выберите концерт</h3>
+                        <p>Найдите в расписании нужный город и дату</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number"></div>
+                    <div class="step-content">
+                        <h3>2. Нажмите "Купить билет"</h3>
+                        <p>Вы будете перенаправлены на официального продавца</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number"></div>
+                    <div class="step-content">
+                        <h3>3. Выберите места</h3>
+                        <p>На интерактивной карте зала выберите места</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number"></div>
+                    <div class="step-content">
+                        <h3>4. Оплатите заказ</h3>
+                        <p>Оплата картой, через онлайн-банк или наличными</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <div class="step-content">
+                        <h3>Получите билеты</h3>
+                        <p>Электронные билеты придут на email, бумажные - на почту</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="warning-box">
+                <h4><i class="fas fa-exclamation-triangle"></i> Внимание!</h4>
+                <p>Покупайте билеты только у официальных продавцов. Остерегайтесь мошенников!</p>
+                <div class="official-sellers">
+                    <span class="seller-tag">Kassir.ru;</span>
+                    <span class="seller-tag">Ticketland.ru;</span>
+                    <span class="seller-tag">Ponominalu.ru;</span>
+                    <span class="seller-tag">Biletix.ru</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="content-section dark">
+            <h2><i class="fas fa-comments"></i> Часто задаваемые вопросы</h2>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Можно ли вернуть билет?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Возврат возможен за 3 дня до концерта при наличии уважительной причины. Электронные билеты возвращаются через кассу продавца.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Есть ли возрастные ограничения?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Концерты AMATORY имеют возрастное ограничение 18+. Дети до 12 лет допускаются только в сопровождении взрослых.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Можно ли принести с собой фотоаппарат?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Любительская фотосъемка разрешена. Профессиональная техника требует аккредитации.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Что входит в VIP пакет?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Подробный список бонусов указан в описании каждого VIP пакета выше.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Будут ли автограф-сессии?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Да, после каждого концерта группа проводит автограф-сессии для обладателей VIP билетов.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Контакт для бронирования -->
+        <section class="content-section">
+            <div class="booking-contact">
+                <div class="booking-info">
+                    <h2><i class="fas fa-headset"></i> Контакты для бронирования</h2>
+                    <p>Для групповых заказов, корпоративных броней и дополнительных вопросов:</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Телефон</h4>
+                                <p>+7 (999) 123-45-67 (10:00 - 20:00 МСК)</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>booking@amatory.ru</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Время работы</h4>
+                                <p>Пн-Пт: 10:00-20:00, Сб-Вс: 12:00-18:00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="booking-form">
+                    <h3>Запрос на групповое бронирование</h3>
+                    <form class="metal-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Ваше имя" class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email" class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Телефон" class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <select class="form-input">
+                                <option>Выберите концерт</option>
+                                <option>Санкт-Петербург, 15 января</option>
+                                <option>Москва, 20 января</option>
+                                <option>Екатеринбург, 5 февраля</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Сообщение" class="form-input" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="metal-btn">Отправить запрос</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Футер -->
+    <footer class="metal-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>AMATORY</h3>
+                    <p>Российская метал-группа, основанная в 2001 году.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-spotify"></i></a>
+                        <a href="#"><i class="fab fa-apple"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Быстрые ссылки</h3>
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="about.html">О группе</a></li>
+                        <li><a href="discography.html">Дискография</a></li>
+                        <li><a href="concerts.html">Концерты</a></li>
+                        <li><a href="store.html">Магазин</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Контакты</h3>
+                    <p><i class="fas fa-envelope"></i> booking@amatory.ru</p>
+                    <p><i class="fas fa-phone"></i> +7 (999) 123-45-67</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Москва, Россия</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Подписка</h3>
+                    <p>Получайте уведомления о концертах и релизах:</p>
+                    <div class="subscribe">
+                        <input type="email" placeholder="Ваш email">
+                        <button class="metal-btn-small">OK</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2001-2025 AMATORY. Все права защищены.</p>
+                <p class="guitar-animation"><i class="fas fa-guitar"></i></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Кнопка "Наверх" -->
+    <button id="backToTop" class="metal-back-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

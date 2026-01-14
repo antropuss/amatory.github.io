@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMATORY | Магазин</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Шапка с фиксированным меню -->
+    <header class="metal-header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="images/band-logo.png" alt="AMATORY" class="logo-img">
+                    <h1 class="band-name">AMATORY</h1>
+                </div>
+
+				
+                <nav class="main-menu">
+                    <ul>
+                        <li><a href="index.html" class="nav-link"><i class="fas fa-home"></i> Главная</a></li>
+                        <li><a href="about.html" class="nav-link"><i class="fas fa-users"></i> О группе</a></li>
+                        <li><a href="discography.html" class="nav-link"><i class="fas fa-compact-disc"></i> Дискография</a></li>
+                        <li><a href="concerts.html" class="nav-link"><i class="fas fa-guitar"></i> Концерты</a></li>
+                        <li><a href="store.html" class="nav-link active"><i class="fas fa-shopping-cart"></i> Магазин</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Основной контент -->
+    <main class="container  main-content">
+        <!-- Заголовок страницы -->
+        <div class="page-header">
+            <h1 class="page-title"><i class="fas fa-shopping-cart"></i> Официальный магазин</h1>
+            <p class="page-subtitle">Эксклюзивный мерч и музыкальные релизы</p>
+        </div>
+
+        <!-- Хиты продаж -->
+        <section class="content-section">
+            <h2><i class="fas fa-fire"></i> Хиты продаж</h2>
+            
+            <div class="products-grid">
+                <!-- Товар 1 -->
+                <div class="product-card featured" data-category="clothing">
+                    <div class="product-badge">ХИТ</div>
+                    <div class="product-image">
+                        <img src="images/merch/1.jpg" alt="Футболка AMATORY">
+                        
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Футболка "Инкарнация"</h3>
+                        <p class="product-description">Черная футболка с принтом нового альбома. 100% хлопок.</p>
+                        
+                        <div class="product-sizes">
+                            <span class="size-option">S</span>
+                            <span class="size-option">M</span>
+                            <span class="size-option active">L</span>
+                            <span class="size-option">XL</span>
+                            <span class="size-option">XXL</span>
+                        </div>
+                        
+                        <div class="product-price">
+                            <span class="current-price">2,500₽</span>
+                            
+                        </div>
+                        
+                        <div class="product-actions">
+                            <button class="metal-btn add-to-cart-btn" data-product="1">
+                                <i class="fas fa-cart-plus"></i> В корзину
+                            </button>
+                            <button class="wishlist-btn">
+                                <i class="far fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Товар 2 -->
+                <div class="product-card" data-category="clothing">
+                    <div class="product-image">
+                        <img src="images/merch/2.jpg" alt="Толстовка AMATORY">
+                        
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Худи "Книга мёртвых"</h3>
+                        <p class="product-description">Толстовка с капюшоном, черная. Дизайн альбома 2006 года.</p>
+                        
+                        <div class="product-sizes">
+                            <span class="size-option">M</span>
+                            <span class="size-option active">L</span>
+                            <span class="size-option">XL</span>
+                            <span class="size-option">XXL</span>
+                        </div>
+                        
+                        <div class="product-price">
+                            <span class="current-price">4,500₽</span>
+                        </div>
+                        
+                        <div class="product-actions">
+                            <button class="metal-btn add-to-cart-btn" data-product="2">
+                                <i class="fas fa-cart-plus"></i> В корзину
+                            </button>
+                            <button class="wishlist-btn">
+                                <i class="far fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Товар 3 -->
+                <div class="product-card" data-category="accessories">
+                    <div class="product-image">
+                        <img src="images/merch/3.jpg" alt="Кепка AMATORY">
+                        
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Кепка с вышивкой</h3>
+                        <p class="product-description">Черная кепка с вышитым логотипом группы. Регулируемый размер.</p>
+                        
+                       
+                        
+                        <div class="product-price">
+                            <span class="current-price">1,800₽</span>
+                        </div>
+                        
+                        <div class="product-actions">
+                            <button class="metal-btn add-to-cart-btn" data-product="3">
+                                <i class="fas fa-cart-plus"></i> В корзину
+                            </button>
+                            <button class="wishlist-btn">
+                                <i class="far fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Товар 4 -->
+                <div class="product-card limited" data-category="limited">
+                    <div class="product-badge">ЛИМИТИРОВАНО</div>
+                    <div class="product-image">
+                        <img src="images/albums/1.jpg" alt="Винил Инкарнация">
+                        
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Винил "Инкарнация" (Limited)</h3>
+                        <p class="product-description">Эксклюзивный винил нового альбома. Тираж 500 копий.</p>
+                        
+                        <div class="product-stock">
+                            <div class="stock-info">
+                                <span class="stock-label">Осталось:</span>
+                                <span class="stock-count">42/500</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 8%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="product-price">
+                            <span class="current-price">5,000₽</span>
+                        </div>
+                        
+                        <div class="product-actions">
+                            <button class="metal-btn add-to-cart-btn" data-product="4">
+                                <i class="fas fa-cart-plus"></i> В корзину
+                            </button>
+                            <button class="wishlist-btn">
+                                <i class="far fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+	</main>
+	
+    <!-- Футер -->
+    <footer class="metal-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>AMATORY</h3>
+                    <p>Российская метал-группа, основанная в 2001 году.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-spotify"></i></a>
+                        <a href="#"><i class="fab fa-apple"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Быстрые ссылки</h3>
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="about.html">О группе</a></li>
+                        <li><a href="discography.html">Дискография</a></li>
+                        <li><a href="concerts.html">Концерты</a></li>
+                        <li><a href="store.html">Магазин</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Контакты</h3>
+                    <p><i class="fas fa-envelope"></i> booking@amatory.ru</p>
+                    <p><i class="fas fa-phone"></i> +7 (999) 123-45-67</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Москва, Россия</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Подписка</h3>
+                    <p>Получайте уведомления о концертах и релизах:</p>
+                    <div class="subscribe">
+                        <input type="email" placeholder="Ваш email">
+                        <button class="metal-btn-small">OK</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2001-2025 AMATORY. Все права защищены.</p>
+                <p class="guitar-animation"><i class="fas fa-guitar"></i></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Кнопка "Наверх" -->
+    <button id="backToTop" class="metal-back-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
